@@ -3,7 +3,7 @@
 there are 3 bash files in this directory now.
 the object is to put them under git management.
 to push to github website, must use ssh. origin must setup to ssh address. instead of https.
-# steps bellow
+# steps bellow ( the project name is autodg)
 ## cd autodg
 ## git config --global user.name liyuefu
 ## git config --global user.email yuuefuli@gmail.com
@@ -60,9 +60,24 @@ git branch to check it.
 ## git switch -c newbranch
 create a new branch "newbranch" and switch to it.
 
-## add local to github 
--- this is for https, git remote add origin https://github.com/liyuefu/autodg.git
-git remote add git@github.com:liyuefu/Git-Commands.git
+################################setup ssh authentication.
+ssh-keygen 
+1. ssh-keygen -t rsa -b 4096 -C "yuefuli@gmail.com"
+create ssh key. just press return when prompted.
+2. cd ~/.ssh/ 
+cat id_rsa.pub , copy to pasteboard.
+3. open browser, login to github website. open setting->profile-> ssh key. add sshkey. paste it.
+4. evel "$(ssh-agent -s)" 
+5. ssh-add ~/ssh/id_rsa
+6. ssh git@github.com
+------return -----
+Hi liyuefu! You've successfully authenticated, but GitHub does not provide shell access.
+Connection to github.com closed.
+
+
+####################################from local to github #####################3
+
+git remote add origin git@github.com:liyuefu/autodg.git
 git branch -M main
 git push -u origin main
 git push --all (all branches)
@@ -111,10 +126,17 @@ Connection to github.com closed.
 
 
 
-#############after ssh @git@github.com, still error:
+#############after ssh @git@github.com, still error: ####
 [nome@LIYUEFU-T14 src-test]$ git push -u origin main
 Username for 'https://github.com': yuefuli@gmail.com
 Password for 'https://yuefuli@gmail.com@github.com':
 remote: Invalid username or password.
 fatal: Authentication failed for 'https://github.com/liyuefu/autodg.git/'
 [nome@LIYUEFU-T14 src-test]$
+
+fix:
+remote https, use ssh instead of https.
+git remote origin (delete the http one.)
+git remote add origin git@github.com:liyuefu/autodg.git
+and then push.
+
