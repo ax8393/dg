@@ -9,10 +9,10 @@ vi para.cfg
 
 # example
 ## single instance to single instance
-oracle_sid=ctp
-oracle_dg_sid=ctpdg
-#如果已经有配置了dg,比如配置了2个dg,把db_unique_name写这里,没有就保持no
-#exist_dg_unique_name_list=testdg1,testdg2
+  oracle_sid=ctp
+  oracle_dg_sid=ctpdg
+  #如果已经有配置了dg,比如配置了2个dg,把db_unique_name写这里,没有就保持no
+  #exist_dg_unique_name_list=testdg1,testdg2
 exist_dg_unique_name_list=no
 
 #指定主库使用哪个dest
