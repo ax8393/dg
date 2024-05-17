@@ -1,0 +1,657 @@
+Date: Sun, 8 May 2022 22:14:57 +0800 (CST)
+Message-ID: <1462070863.1.1652019297140@confluence>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_0_1398655659.1652019297048"
+
+------=_Part_0_1398655659.1652019297048
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>dg=E8=BD=AC=E4=B8=BARAC=E6=AD=A5=E9=AA=A4</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>dg=E8=BD=AC=E4=B8=BARAC=E6=AD=A5=E9=AA=A4</h1>
+    <div class=3D"Section1">
+        <h2 id=3D"dg=E8=BD=AC=E4=B8=BARAC=E6=AD=A5=E9=AA=A4-=E4=B8=80=E3=80=
+=81=E6=AD=A5=E9=AA=A4">=E4=B8=80=E3=80=81=E6=AD=A5=E9=AA=A4</h2>
+<p><br></p>
+<p>=E6=90=AD=E5=BB=BA=E5=8D=95=E8=8A=82=E7=82=B9=E5=88=B0=E9=9B=86=E7=BE=A4=
+=E6=97=B6=EF=BC=8C=E9=9B=86=E7=BE=A4=E4=B8=8A=E7=9A=84=E4=BE=A6=E5=90=AC=E8=
+=A6=81=E5=85=88=E5=81=9C=E6=AD=A2=E3=80=82=E8=BF=99=E6=A0=B7=E6=89=8D=E8=83=
+=BD=E5=90=AF=E5=8A=A8oracle=E7=9A=84=E4=BE=A6=E5=90=AC=E3=80=82</p>
+<ol>
+<li><h3 id=3D"dg=E8=BD=AC=E4=B8=BARAC=E6=AD=A5=E9=AA=A4-=E4=B8=BB=E5=A4=87=
+=E5=88=87=E6=8D=A2">=E4=B8=BB=E5=A4=87=E5=88=87=E6=8D=A2</h3></li>
+</ol>
+<p>RAC1=E8=8A=82=E7=82=B9=E6=95=B0=E6=8D=AE=E5=BA=93=E5=9C=A8mount=E5=B9=B6=
+apply =E6=97=A5=E5=BF=97=E3=80=82RAC2=E8=8A=82=E7=82=B9=E6=B2=A1=E6=9C=89=
+=E5=90=AF=E5=8A=A8=E5=AE=9E=E4=BE=8B=E3=80=82</p>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 57.=
+6807%;">
+<colgroup>
+<col style=3D"width: 100.033%;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">=E5=BD=93=E5=89=8D=E4=B8=BB=E5=BA=93(=E5=8D=95=
+=E8=8A=82=E7=82=B9=E5=BA=93=EF=BC=89=EF=BC=9A</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>select switchover_status from v$database;</p>=
+<p>alter database commit to switchover to physical standby with session shu=
+tdown;</p><p>shutdown immediate;</p><p>startup mount;</p><p>--=E5=A4=87=E5=
+=BA=93=E9=9C=80=E8=A6=81=E8=AE=BE=E7=BD=AEdb_recovery_file,=E5=90=A6=E5=88=
+=99=E4=B8=8D=E8=83=BD=E5=BB=BA=E6=97=A5=E5=BF=97=E6=96=87=E4=BB=B6=E5=9B=A0=
+=E4=B8=BA=E4=B8=BB=E5=BA=93=E4=BD=BF=E7=94=A8=E4=BA=86OMF=E3=80=82</p><p><s=
+pan><span style=3D"color: rgb(0,0,0);">alter&nbsp;system&nbsp;set&nbsp;db_r=
+ecovery_file_dest_size=3D4096M;</span></span></p><p>alter system set db_rec=
+overy_file_dest=3D'/u02/arch';</p><p><br></p><p><strong>=E4=BF=AE=E6=94=B9=
+=E5=A4=87=E5=BA=93tnsnames.ora</strong></p><p>[oracle@standby admin]$ cat t=
+nsnames.ora</p><p>testctp =3D (DESCRIPTION =3D (ADDRESS_LIST =3D (ADDRESS =
+=3D (PROTOCOL =3D TCP)(HOST =3D 192.168.56.5)(PORT =3D 1521))) (CONNECT_DAT=
+A =3D (SERVICE_NAME =3D testctp)))</p><p>ctprac =3D (DESCRIPTION =3D (ADDRE=
+SS_LIST =3D (ADDRESS =3D (PROTOCOL =3D TCP)(HOST =3D 192.168.56.<span style=
+=3D"color: rgb(255,0,0);"><strong>199</strong></span>)(PORT =3D 1521))) (CO=
+NNECT_DATA =3D (SERVICE_NAME =3D ctprac)))</p><p><br></p><p class=3D"auto-c=
+ursor-target">=E4=BF=AE=E6=94=B9=E5=A4=87=E5=BA=93tnsnames.ora=E4=B8=AD=E5=
+=8E=9F=E6=9D=A5=E5=8F=AA=E6=8C=87=E5=90=91=E8=8A=82=E7=82=B9=E7=9A=84IP=EF=
+=BC=8C=E6=94=B9=E4=B8=BAscan IP=E3=80=82=E5=90=A6=E5=88=99=E8=8A=82=E7=82=
+=B92=E8=BF=9E=E6=8E=A5=E5=A4=87=E5=BA=93=E5=A4=B1=E8=B4=A5=E3=80=82</p><p c=
+lass=3D"auto-cursor-target">=E6=8A=A5=E9=94=99=EF=BC=9APING[ARC2]: Heartbea=
+t failed to connect to standby 'testctp'. Error is 12154.</p><p>alter datab=
+ase recover managed standby database using current logfile disconnect;</p><=
+p><br></p></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><strong>RAC=E8=8A=82=E7=82=B91</st=
+rong></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><p>select switchover_status from v=
+$database;</p><p>alter database commit to switchover to physical primary wi=
+th session shutdown;</p><p>shutdown immediate;</p><p>startup;</p><p>select =
+database_role,open_mode from v$database;</p><p><br></p></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><strong>=E5=A4=8D=E5=88=B6tnsnames=
+.ora,=E5=AF=86=E7=A0=81=E6=96=87=E4=BB=B6=E5=88=B0=E8=8A=82=E7=82=B92</stro=
+ng></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><p class=3D"auto-cursor-target">=
+=E6=8A=8A=E8=8A=82=E7=82=B91=E7=9A=84=E5=AF=86=E7=A0=81=EF=BC=8Ctnsnames.or=
+a=E5=A4=8D=E5=88=B6=E5=88=B0=E8=8A=82=E7=82=B92.=E5=B9=B6=E7=9B=B8=E5=BA=94=
+=E6=94=B9=E5=90=8D</p><p class=3D"auto-cursor-target">scp $ORACLE_HOME/netw=
+ork/admin/tnsnames.ora <a href=3D"http://rac2/tmp" class=3D"external-link" =
+rel=3D"nofollow">rac2:/tmp</a></p><p class=3D"auto-cursor-target">scp $ORAC=
+LE_HOME/dbs/orapwtestctp1 <a href=3D"http://rac2/tmp" class=3D"external-lin=
+k" rel=3D"nofollow">rac2:/tmp</a></p><p class=3D"auto-cursor-target">=E5=88=
+=B0=E8=8A=82=E7=82=B92</p><p class=3D"auto-cursor-target">cp ./tnsnames.=
+ora $ORACLE_HOME/network/admin&nbsp; =E4=BF=AE=E6=94=B9tnsnames.ora=E4=B8=
+=AD=E8=8A=82=E7=82=B91=E7=9A=84IP=E4=B8=BA=E8=8A=82=E7=82=B92=E7=9A=84IP=E3=
+=80=82</p><p class=3D"auto-cursor-target">cp ./orapwtestctp1 $ORACLE_HOM=
+E/dbs/orapwtestctp2</p><p class=3D"auto-cursor-target">sqlplus sys/oracle@t=
+estctp as sysdba&nbsp; =E6=B5=8B=E8=AF=95=E8=BF=9E=E6=8E=A5=E6=88=90=E5=8A=
+=9F</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><h3 class=3D"auto-cursor-target" id=3D"dg=E8=BD=
+=AC=E4=B8=BARAC=E6=AD=A5=E9=AA=A4-2.=E5=9C=A8RAC=E8=8A=82=E7=82=B91=EF=BC=
+=9A=E4=B8=BAthread2=E5=BB=BA=E6=97=A5=E5=BF=97=E3=80=81standby=E6=97=A5=E5=
+=BF=97=E3=80=81undo=E8=A1=A8=E7=A9=BA=E9=97=B4">2.=E5=9C=A8RAC =E8=8A=82=E7=
+=82=B91 =EF=BC=9A =E4=B8=BAthread 2=E5=BB=BA=E6=97=A5=E5=BF=97=E3=80=81stan=
+dby=E6=97=A5=E5=BF=97=E3=80=81undo=E8=A1=A8=E7=A9=BA=E9=97=B4</h3></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p class=3D"auto-cursor-target">select group#,by=
+tes from v$log;</p><p class=3D"auto-cursor-target">select group#,bytes from=
+ v$standby_log;</p><p class=3D"auto-cursor-target">select member from v$log=
+file;</p><p class=3D"auto-cursor-target">alter database add logfile thread =
+2 '+data' size 50m;</p><p class=3D"auto-cursor-target">alter database add l=
+ogfile thread 2 '+data' size 50m;</p><p class=3D"auto-cursor-target">alter =
+database add logfile thread 2 '+data' size 50m;</p><p class=3D"auto-cursor-=
+target">alter database add standby logfile thread 2 '+data' size 50m;</p><p=
+ class=3D"auto-cursor-target">alter database add standby logfile thread 2 '=
++data' size 50m;</p><p class=3D"auto-cursor-target">alter database add stan=
+dby logfile thread 2 '+data' size 50m;</p><p class=3D"auto-cursor-target">a=
+lter database add standby logfile thread 2 '+data' size 50m;</p><p class=3D=
+"auto-cursor-target">create undo tablespace undotbs2 datafile '+data' size =
+100m;</p></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">3.=E6=95=B0=E6=8D=AE=E5=BA=93=E6=94=B9cluster=E6=
+=A8=A1=E5=BC=8F=EF=BC=8C=E8=AE=BE=E7=BD=AEthread=E5=8F=82=E6=95=B0,=E5=90=
+=AF=E7=94=A8thread 2.</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p class=3D"auto-cursor-target">alter system set=
+ cluster_database=3Dtrue sid=3D'*' scope=3Dspfile;</p><p class=3D"auto-curs=
+or-target">alter system set thread=3D1 sid =3D 'testctp1' scope=3Dspfile;</=
+p><p class=3D"auto-cursor-target">alter system set thread=3D2 sid =3D 'test=
+ctp2' scope=3Dspfile;</p><p class=3D"auto-cursor-target">alter system set i=
+nstance_number=3D1 sid=3D'testctp1' scope=3Dspfile;</p><p class=3D"auto-cur=
+sor-target">alter system set instance_number=3D2 sid=3D'testctp2' scope=3Ds=
+pfile;</p><p class=3D"auto-cursor-target">alter system set undo_tablespace=
+=3D'UNDOTBS1' sid=3D'testctp1' scope=3Dspfile;</p><p class=3D"auto-cursor-t=
+arget">alter system set undo_tablespace=3D'UNDOTBS2' sid=3D'testctp2' scope=
+=3Dspfile;</p><p class=3D"auto-cursor-target">alter database enable thread =
+2;</p><p class=3D"auto-cursor-target">=E9=87=8D=E5=90=AF=E6=95=B0=E6=8D=AE=
+=E5=BA=93=EF=BC=8C=E7=A1=AE=E8=AE=A4=E5=8F=82=E6=95=B0=E6=AD=A3=E7=A1=AE=E3=
+=80=82</p><p class=3D"auto-cursor-target">shutdown immediate;</p><p class=
+=3D"auto-cursor-target">startup</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">4 .=E9=87=8D=E5=BB=BAspfile=E5=88=B0asm</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p class=3D"auto-cursor-target">create pfile=3D'=
+./a.ora' from spfile;</p><p class=3D"auto-cursor-target">=E5=A4=87=E4=BB=
+=BDpfile=E3=80=82</p><p class=3D"auto-cursor-target">create spfile=3D'+DATA=
+' from pfile=3D'./a.ora';</p><p class=3D"auto-cursor-target">=E4=BB=A5gr=
+id=E7=94=A8=E6=88=B7=E7=99=BB=E5=BD=95asmcmd=EF=BC=8C cd +data,</p><p class=
+=3D"auto-cursor-target">=E5=BE=97=E5=88=B0spfile=E4=BD=8D=E7=BD=AE +data/ct=
+prac/parameterfile/spfile.291.1104015301</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">5.=E6=B3=A8=E5=86=8Cdb=EF=BC=8Cinstance=E5=88=B0=
+cluster</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p class=3D"auto-cursor-target">=E4=BB=A5oracle=
+=E7=94=A8=E6=88=B7 (=E6=B3=A8=E6=84=8F=EF=BC=8C-d =E6=98=AFdb_unique_name, =
+-n =E6=98=AFdb_name)</p><p class=3D"auto-cursor-target">srvctl add database=
+ -d ctprac -o $ORACLE_HOME</p><p class=3D"auto-cursor-target">srvctl modify=
+ database -d ctprac -n testctp</p><p class=3D"auto-cursor-target">srvctl mo=
+dify database -d ctprac -a "data,arch"</p><p class=3D"auto-cursor-target">s=
+rvctl modify database -d ctprac&nbsp; -p '+data/ctprac/parameterfile/spfile=
+.291.1104015301'</p><p class=3D"auto-cursor-target">srvctl config database =
+-d ctprac</p><p class=3D"auto-cursor-target">srvctl add instance -d ctprac =
+-n rac1 -i testctp1</p><p class=3D"auto-cursor-target">srvctl add instance =
+-d ctprac -n rac2 -i testctp2</p><p class=3D"auto-cursor-target">srvctl con=
+fig database -d ctprac</p><p class=3D"auto-cursor-target">su - grid</p><p c=
+lass=3D"auto-cursor-target">crsctl stat res -t</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">6.=E7=94=A8srvctl =E5=90=AF=E5=8A=A8=E6=95=B0=E6=
+=8D=AE=E5=BA=93</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p class=3D"auto-cursor-target">sqlplus&nbsp; / =
+as sysdba</p><p class=3D"auto-cursor-target">shutdown immediate;</p><p clas=
+s=3D"auto-cursor-target">srvctl config database -d ctprac</p><p class=3D"au=
+to-cursor-target">srvctl start database -d ctprac</p><p class=3D"auto-curso=
+r-target">srvctl status database -d ctprac</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">7.=E8=8A=82=E7=82=B91=E6=89=A7=E8=A1=8Ccatcluste=
+r.sql</th>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>sqlplus / as sysdba</p><p>start ?/rdbms/admin=
+/catclust.sql</p><p><br></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h4 class=3D"auto-cursor-target" id=3D"dg=E8=BD=AC=E4=B8=BARAC=E6=AD=A5=E9=
+=AA=A4-8.=E8=8A=82=E7=82=B91=E5=81=9C=E6=AD=A2oracle=E7=9A=84=E4=BE=A6=E5=
+=90=AC">8. =E8=8A=82=E7=82=B91=E5=81=9C=E6=AD=A2oracle=E7=9A=84=E4=BE=A6=E5=
+=90=AC</h4>
+<p class=3D"auto-cursor-target">=E8=8A=82=E7=82=B91</p>
+<p class=3D"auto-cursor-target">lsnrctl stop listener</p>
+<p class=3D"auto-cursor-target">crsctl stop res ora.LISTENER.lsnr</p>
+<p class=3D"auto-cursor-target">crsctl start res ora.LISTENER.lsnr</p>
+<p class=3D"auto-cursor-target">crsctl stat res -t =E6=A3=80=E6=9F=A5=E7=A1=
+=AE=E8=AE=A4=E3=80=82</p>
+<p class=3D"auto-cursor-target">9.=E6=B5=8B=E8=AF=95=E5=90=8C=E6=AD=A5</p>
+<p class=3D"auto-cursor-target">=E4=B8=BB=E5=BA=93=E5=88=87=E6=8D=A2=E6=97=
+=A5=E5=BF=97</p>
+<p class=3D"auto-cursor-target">=E5=9C=A8=E8=8A=82=E7=82=B91=EF=BC=9A</p>
+<blockquote>
+<p>SQL&gt; alter system archive log current;</p>
+<p>System altered.</p>
+</blockquote>
+<p class=3D"auto-cursor-target">=E5=A4=87=E5=BA=93alert=E6=97=A5=E5=BF=97=
+=E7=9C=8B=E5=88=B0</p>
+<p class=3D"auto-cursor-target">=E4=BB=8E=E5=9C=A8=E7=BA=BF=E6=97=A5=E5=BF=
+=97=E6=81=A2=E5=A4=8D=E3=80=82=E8=AF=B4=E6=98=8E=E6=AD=A3=E5=B8=B8=E3=80=82=
+</p>
+<blockquote>
+<p>Recovery of Online Redo Log: <strong>Thread 1</strong> Group 5 Seq 31 Re=
+ading mem 0</p>
+<p><strong>Mem#</strong> 0: /u01/app/oracle/oradata/testctp/dg_redo_5.log</=
+p>
+<p>Media Recovery Waiting for thread 2 sequence 5 (in transit)</p>
+<p>Recovery of Online Redo Log: <strong>Thread 2</strong> Group 6 Seq 5 Rea=
+ding mem 0</p>
+<p><strong>Mem# 0:</strong> /u01/app/oracle/oradata/testctp/dg_redo_6.log</=
+p>
+<p><br></p>
+</blockquote>
+<h2 class=3D"auto-cursor-target" id=3D"dg=E8=BD=AC=E4=B8=BARAC=E6=AD=A5=E9=
+=AA=A4-=E4=BA=8C=E3=80=81=E6=8E=92=E9=94=99">=E4=BA=8C=E3=80=81=E6=8E=92=E9=
+=94=99</h2>
+<p><br></p>
+<h3 id=3D"dg=E8=BD=AC=E4=B8=BARAC=E6=AD=A5=E9=AA=A4-1.=E5=A4=87=E5=BA=93=E8=
+=BD=AC=E4=B8=BAADG=E6=8A=A5=E9=94=99">1. =E5=A4=87=E5=BA=93=E8=BD=AC=E4=B8=
+=BAADG=E6=8A=A5=E9=94=99</h3>
+<p>alter database recover managed standby database using current logfile=EF=
+=BC=8Calert=E6=8A=A5=E9=94=99</p>
+<p><br></p>
+<blockquote>
+<p>Sun May 08 19:34:36 2022</p>
+<p>MRP0 started with pid=3D29, OS id=3D6425</p>
+<p>MRP0: Background Managed Standby Recovery process started (testctp)</p>
+<p>Serial Media Recovery started</p>
+<p>Managed Standby Recovery starting Real Time Apply</p>
+<p>Waiting for all non-current ORLs to be archived...</p>
+<p>All non-current ORLs have been archived.</p>
+<p>Clearing online redo logfile 1 /u01/app/oracle/oradata/testctp/redo01.lo=
+g</p>
+<p>Clearing online log 1 of thread 1 sequence number 27</p>
+<p>Clearing online redo logfile 1 complete</p>
+<p>Clearing online redo logfile 2 /u01/app/oracle/oradata/testctp/redo02.lo=
+g</p>
+<p>Clearing online log 2 of thread 1 sequence number 28</p>
+<p>Clearing online redo logfile 2 complete</p>
+<p>Clearing online redo logfile 3 /u01/app/oracle/oradata/testctp/redo03.lo=
+g</p>
+<p>Clearing online log 3 of thread 1 sequence number 29</p>
+<p>Clearing online redo logfile 3 complete</p>
+<p>Media Recovery Log /u02/arch/1_23_1104166657.dbf</p>
+<p><span style=3D"color: rgb(255,0,0);">No OMF destination specified, unabl=
+e to create logs</span></p>
+<p>MRP0: Background Media Recovery terminated with error 1264</p>
+<p>Errors in file /u01/app/oracle/diag/rdbms/testctp/testctp/trace/testctp_=
+mrp0_6425.trc:</p>
+<p><span style=3D"color: rgb(255,0,0);">ORA-01264: Unable to create logfile=
+ file name</span></p>
+<p>Managed Standby Recovery not using Real Time Apply</p>
+<p>Recovery interrupted!</p>
+<p>Recovered data files to a consistent state at change 993359</p>
+<p>MRP0: Background Media Recovery process shutdown (testctp)</p>
+<p>Completed: alter database recover managed standby database using current=
+ logfile disconnect</p>
+</blockquote>
+<p><br></p>
+<p>=E6=BA=90=E7=AB=AF=EF=BC=88RAC=EF=BC=89=E4=BD=BF=E7=94=A8=E4=BA=86OMF=EF=
+=BC=8C=E5=A4=87=E5=BA=93=E5=BF=85=E9=A1=BB=E4=BD=BF=E7=94=A8OMF=E5=90=97=EF=
+=BC=9F<span class=3D"xq" style=3D"color: black;">Doc ID 1376892.1</span></p=
+>
+<h2 class=3D"km" id=3D"dg=E8=BD=AC=E4=B8=BARAC=E6=AD=A5=E9=AA=A4-Cause">Cau=
+se</h2>
+<p>On the Standby database, the db initialization parameter db_file_recover=
+y_dest was blank. The Redo stream containing the enable thread could not be=
+ applied on the Physical Standby database.<br><br>Solution</p>
+<p>Shutdown Managed Recovery on the Physical Standby database.<br><br>Set t=
+he db_recovery_file_dest parameter on the standby database to a valid direc=
+tory path.<br>Set the db_recovery_file_dest_size=3D2147483648<br><br>Restar=
+t Managed Recovery on the Physical Standby database.</p>
+<p><span><span style=3D"color: rgb(0,0,0);">alter&nbsp;system&nbsp;set&nbsp=
+;db_recovery_file_dest_size=3D4096M;</span></span></p>
+<p>alter system set db_recovery_file_dest=3D'/u02/arch';</p>
+<p><br></p>
+<p>alter database recover managed standby database using current logfile;</=
+p>
+<p><br></p>
+<h3 id=3D"dg=E8=BD=AC=E4=B8=BARAC=E6=AD=A5=E9=AA=A4-2.=E8=8A=82=E7=82=B92al=
+ert=E6=8A=A5=E9=94=99">2.=E8=8A=82=E7=82=B92alert=E6=8A=A5=E9=94=99</h3>
+<p><br></p>
+<blockquote>
+<p>Fri May 06 21:15:39 2022</p>
+<p>Error 12154 received logging on to the standby</p>
+<p>PING[ARC2]: Heartbeat failed to connect to standby 'testctp'. Error is 1=
+2154.</p>
+</blockquote>
+<p><br></p>
+<p>=E5=8E=9F=E5=9B=A0=E6=98=AF=E5=A4=87=E5=BA=93=E7=9A=84tnsnames.ora=EF=BC=
+=8C=E5=8F=AA=E9=85=8D=E7=BD=AE=E4=BA=86=E8=8A=82=E7=82=B91=E7=9A=84IP=EF=BC=
+=8C=E6=94=B9=E4=B8=BAscan Ip=E5=90=8E=EF=BC=8Crac=E4=B8=A4=E4=B8=AA=E8=8A=
+=82=E7=82=B9=E9=87=8D=E5=90=AF=E3=80=82</p>
+<p>dg=E9=87=8D=E6=96=B0</p>
+<p>alter database recover managed standby database cancel;</p>
+<p>alter database recover managed standby database using current logfile di=
+sconnect;</p>
+<p>=E9=97=AE=E9=A2=98=E8=A7=A3=E5=86=B3=E3=80=82</p>
+<p><br></p>
+<p>=E8=8A=82=E7=82=B91 tnsnames.ora</p>
+<blockquote>
+<p>[oracle@rac1 admin]$ cat tnsnames.ora</p>
+<p>testctp =3D (DESCRIPTION =3D (ADDRESS_LIST =3D (ADDRESS =3D (PROTOCOL =
+=3D TCP)(HOST =3D 192.168.56.5)(PORT =3D 1521))) (CONNECT_DATA =3D (SERVICE=
+_NAME =3D testctp)))</p>
+<p>ctprac =3D (DESCRIPTION =3D (ADDRESS_LIST =3D (ADDRESS =3D (PROTOCOL =3D=
+ TCP)(HOST =3D 192.168.56.191)(PORT =3D 1521))) (CONNECT_DATA =3D (SERVICE_=
+NAME =3D ctprac)))</p>
+</blockquote>
+<p><br></p>
+<p>=E8=8A=82=E7=82=B92 tnsnames.ora</p>
+<blockquote>
+<p>[oracle@rac2 admin]$ cat tnsnames.ora</p>
+<p>testctp =3D (DESCRIPTION =3D (ADDRESS_LIST =3D (ADDRESS =3D (PROTOCOL =
+=3D TCP)(HOST =3D 192.168.56.5)(PORT =3D 1521))) (CONNECT_DATA =3D (SERVICE=
+_NAME =3D testctp)))</p>
+<p>ctprac =3D (DESCRIPTION =3D (ADDRESS_LIST =3D (ADDRESS =3D (PROTOCOL =3D=
+ TCP)(HOST =3D 192.168.56.192)(PORT =3D 1521))) (CONNECT_DATA =3D (SERVICE_=
+NAME =3D ctprac)))</p>
+</blockquote>
+<p><br></p>
+<p>=E5=A4=87=E5=BA=93tnsnames.ora</p>
+<p><br></p>
+<blockquote>
+<p>[oracle@standby admin]$ cat tnsnames.ora</p>
+<p>testctp =3D (DESCRIPTION =3D (ADDRESS_LIST =3D (ADDRESS =3D (PROTOCOL =
+=3D TCP)(HOST =3D 192.168.56.5)(PORT =3D 1521))) (CONNECT_DATA =3D (SERVICE=
+_NAME =3D testctp)))</p>
+<p>ctprac =3D (DESCRIPTION =3D (ADDRESS_LIST =3D (ADDRESS =3D (PROTOCOL =3D=
+ TCP)(HOST =3D 192.168.56.199)(PORT =3D 1521))) (CONNECT_DATA =3D (SERVICE_=
+NAME =3D ctprac)))</p>
+</blockquote>
+<p><br></p>
+<p>para.cfg =E9=85=8D=E7=BD=AE=E6=96=87=E4=BB=B6</p>
+<blockquote>
+<p>[oracle@standby dgcreate]$ cat para.cfg</p>
+<p>oracle_sid=3Dtestctp</p>
+<p>oracle_dg_sid=3Dtestctp1</p>
+<p>dg_unique_name=3Dctprac</p>
+<p>oracle_base=3D/u01/app/oracle</p>
+<p>oracle_home=3D/u01/app/oracle/product/11.2.0/dbhome_1</p>
+<p>dgpath=3D+data</p>
+<p>dgarch=3D+arch</p>
+<p>ippr=3D192.168.56.5</p>
+<p>ipdg=3D192.168.56.191</p>
+<p>stagepr=3D/stage</p>
+<p>stagedg=3D/stage</p>
+<p>duplicate=3Dyes</p>
+<p>syspwd=3Doracle</p>
+<p>setupssh=3Dno</p>
+</blockquote>
+<p><a href=3D"/download/attachments/38338885/autodg-2022-05-08-2044.tar.gz?=
+version=3D1&amp;modificationDate=3D1652013871228&amp;api=3Dv2" data-linked-=
+resource-id=3D"38338906" data-linked-resource-version=3D"1" data-linked-res=
+ource-type=3D"attachment" data-linked-resource-default-alias=3D"autodg-2022=
+-05-08-2044.tar.gz" data-linked-resource-content-type=3D"application/x-gzip=
+" data-linked-resource-container-id=3D"38338885" data-linked-resource-conta=
+iner-version=3D"31">autodg-2022-05-08-2044.tar.gz</a></p>
+    </div>
+</body>
+</html>
+------=_Part_0_1398655659.1652019297048--

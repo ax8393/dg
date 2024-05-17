@@ -1,0 +1,1 @@
+"/u03/oradata/orcldg/","/u02/ctp/datafile/","/u03/oradata/orcldg/","/u02/ctp/datafile/data2/","/u03/oradata/orcldg/","/u02/ctp/tempfile/","/u03/oradata/orcldg/","/u02/ctp/datafile/","/u03/oradata/orcldg/","/u02/ctp/datafile/data2/","/u03/oradata/orcldg/","/u02/ctp/tempfile/",
