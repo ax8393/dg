@@ -7,8 +7,8 @@ just edit the config file para.cfg according to your env, the script will deply 
 ## clone it 
 git clone https://github.com/liyuefu/autodg.git
 ## edit para.cfg
-cd src
-vi para.cfg
+cd src  
+vi para.cfg  
 ### single instance to single instance
 oracle_sid=ctp  
 oracle_dg_sid=ctpdg  
@@ -77,3 +77,6 @@ setupssh=no
 ## run it
 ./autodg.sh
 
+### check the log/process
+cd ../tmp  
+tailf dup.log  
