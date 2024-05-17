@@ -140,3 +140,28 @@ git remote origin (delete the http one.)
 git remote add origin git@github.com:liyuefu/autodg.git
 and then push.
 
+
+
+############error fix###############
+git push -f -u origin main
+
+[nome@LIYUEFU-T14 autodg]$ git push -u origin main
+To github.com:liyuefu/autodg.git
+ ! [rejected]        main -> main (non-fast-forward)
+error: failed to push some refs to 'github.com:liyuefu/autodg.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. If you want to integrate the remote changes,
+hint: use 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+[nome@LIYUEFU-T14 autodg]$ git push -f -u origin main
+Enumerating objects: 76, done.
+Counting objects: 100% (76/76), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (71/71), done.
+Writing objects: 100% (76/76), 82.41 KiB | 102.00 KiB/s, done.
+Total 76 (delta 10), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (10/10), done.
+To github.com:liyuefu/autodg.git
+ + e93f093...7c8fc14 main -> main (forced update)
+branch 'main' set up to track 'origin/main'.
+[nome@LIYUEFU-T14 autodg]$
