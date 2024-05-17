@@ -1,14 +1,15 @@
 # What's it for
+
 It's for deploy Oracle dataguard with scripts.
 just edit the config file para.cfg according to your env, the script will deply dataguard .
 # How to use it 
+
+## clone it 
 git clone https://github.com/liyuefu/autodg.git
+## edit para.cfg
 cd src
 vi para.cfg
-./autodg.sh
-
-# example
-## single instance to single instance
+### single instance to single instance
 oracle_sid=ctp  
 oracle_dg_sid=ctpdg  
 #如果已经有配置了dg,比如配置了2个dg,把db_unique_name写这里,没有就保持no  
@@ -39,7 +40,7 @@ setupssh=no
 #如果文件有重名的,设置为yes  
 #duplicate_active: yes(直接用duplicate from active命令从主库duplicate), no(用现有的rman备份也用duplicate命令, rman必须已经复制到备库),  
 
-## rac -> rac  
+### rac -> rac  
 
 oracle_sid=ctp1  
 oracle_dg_sid=ctp1  
@@ -72,3 +73,7 @@ setupssh=no
 #如果文件有重名的,设置为yes  
 #duplicate_active: yes(直接用duplicate from active命令从主库duplicate), no(用现有的rman备份也用duplicate命令, rman必须已经复制到备库),  
 #rman(新建一个rman备份并复制到备库,用rman restore, recover命令)  
+
+## run it
+./autodg.sh
+
