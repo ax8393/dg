@@ -79,7 +79,7 @@ Connection to github.com closed.
 
 git remote add origin git@github.com:liyuefu/autodg.git
 git branch -M main
-git push -u origin main
+git push -u -f origin main
 git push --all (all branches)
 
 ## git pull
