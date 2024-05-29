@@ -15,6 +15,9 @@ oracle_base_dg=/u01/app/oracle
 oracle_home_dg=/u01/app/oracle/product/11.2.0/dbhome_1
 dgpath=+datadg
 dgarch=+datadg
+dgomf=yes
+#dgomf, yes: set db_create_file_dest value to $dgpath , dg will use OMF, no: no set db_create_file_dest.
+#如果主库使用OMF,比如rac或者单实例ASM, 备库建议也使用OMF.如果备库是+data,那么肯定要使用OMF,即设置yes.
 #源端和目标端都是rac时,搭建时使用public ip. 搭建顺利完成后可以考虑改为scan ip
 ippr=192.168.56.191
 ipdg=192.168.56.201

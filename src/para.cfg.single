@@ -15,6 +15,10 @@ oracle_base_dg=/u01/app/oracle
 oracle_home_dg=/u01/app/oracle/product/11.2.0/dbhome_1
 dgpath=/u02/oradata/ctpdg
 dgarch=/u02/arch
+dgomf=no
+#dgomf, yes: set db_create_file_dest value to $dgpath , dg will use OMF, no: no set db_create_file_dest.
+#如果主库使用OMF,比如rac或者单实例ASM, 备库建议也使用OMF.如果备库是+data,那么肯定要使用OMF,即设置yes.
+
 #从rac到单机时,rac使用搭建使用节点的public ip.
 ippr=192.168.56.91
 ipdg=192.168.56.92
