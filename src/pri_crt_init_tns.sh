@@ -6,8 +6,8 @@ source ./lib/autodglib.sh
 #source $HOME/.bash_profile
 #rac-rac, 必须设置echo "  set db_create_online_log_dest_1='"$DGPATH"'"  否则standby日志不能自动建立.log_convert参数没用.
 #update: 2024.04.24. add exist dg support.
-#update: 2024.04.27. 如果主库备库ORACLE_BASE不同,需要在spfile中set audit_file_dest 和 diagnostic_dest.
-#否则dg库启动失败.
+#update: 2024.04.27. 如果主库备库ORACLE_BASE不同,需要在spfile中set audit_file_dest 和 diagnostic_dest. 否则dg库启动失败.
+#update: 2024.05.29. 增加参数 dgomf, 取值yes, 设置 db_create_file_dest,使用OMF.否则不设置.
 export TMPDIR="$TMPDIR"
 export EXECUTE_DATE=`date +%Y-%m-%d_%H-%M-%S`
 export ORACLE_SID=`./getcfg.sh oracle_sid`
@@ -29,6 +29,7 @@ export EXIST_DG_UNIQUE_NAME_LIST=`./getcfg.sh exist_dg_unique_name_list`
 
 export DGPATH=`./getcfg.sh dgpath`
 export DGARCH=`./getcfg.sh dgarch`
+export DGOMF=`./getcfg.sh dgomf`
 export IPPR=`./getcfg.sh ippr`
 export IPDG=`./getcfg.sh ipdg`
 export FIX_DATAFILE_SAME_NAME=`./getcfg.sh fix_datafile_same_name`
@@ -169,11 +170,13 @@ create_dup_cmd() {
   echo "  set local_listener=''">>$DUPCMD
   echo "  set remote_listener=''">>$DUPCMD
   echo "  set db_recovery_file_dest=''">>$DUPCMD
-  echo "  set db_create_file_dest='"$DGPATH"'">>$DUPCMD
+  if [ $DGOMF == "yes" ]; then
+    echo "  set db_create_file_dest='"$DGPATH"'">>$DUPCMD
+    echo "  set db_create_online_log_dest_1='"$DGPATH"'" >>$DUPCMD
+  fi
   echo "  set log_archive_dest_1='location="$DGARCH"'" >>$DUPCMD
   echo "  set $DG_LOG_ARCHIVE_DEST='service="$DB_UNIQUE_NAME" lgwr async valid_for=(online_logfiles,primary_role) db_unique_name="$DB_UNIQUE_NAME"'">>$DUPCMD
   echo "  set log_archive_dest_1='location="$DGARCH"'" >>$DUPCMD
-  echo "  set db_create_online_log_dest_1='"$DGPATH"'" >>$DUPCMD
   echo "  set audit_file_dest='"$AUDITDG"'" >>$DUPCMD
   echo "  set diagnostic_dest='"$ORACLE_BASE_DG"'" >>$DUPCMD
 
