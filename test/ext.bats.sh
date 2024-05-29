@@ -38,7 +38,7 @@ setup(){
 }
 
 @test "test_file_exists_and_not_empty_ok" {
-  run file_exists_and_not_empty "./tmp/db.tmp"
+  run file_exists_and_not_empty "/etc/passwd"
   assert_success
 }
 
